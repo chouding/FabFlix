@@ -1,0 +1,35 @@
+h1{
+    margin-bottom: 40px;
+}
+.payment-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form > input[type="text"]{
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+
+form{
+    width: 300px;
+    height: 60vh;
+    min-width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+    background-color: rgba(112, 94, 135, 0.62);
+    margin-bottom: 50px;
+}
+
+form > input[type="submit"]{
+    width: 70px;
+    height: 40px;
+    min-width: fit-content;
+    border-radius: 10px
+}

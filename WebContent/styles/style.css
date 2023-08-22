@@ -1,0 +1,66 @@
+*{
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+}
+
+
+body{
+    background-color: #2A0000;
+    display: table-row;
+}
+
+.StarBody{
+    display: block;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px darkred;
+    font-size: 5rem;
+
+    padding-top: 60px;
+    padding-bottom: 40px;
+    background-image: url("movie_curtain.jpg");
+}
+
+th{
+    padding: 20px 20px;
+
+}
+
+tr{
+    background: lightgrey;
+    font-size: 1.5rem;
+}
+
+
+table{
+    margin-right: auto;
+    margin-left: auto;
+
+    min-width: 99.5%;
+
+}
+
+th{
+    border: 3px grey ridge;
+}
+
+
+.BackToMovie{
+    position: absolute;
+    color: white;
+}
+
+
+.TableTitle{
+    background: #736773;
+    font-size: 2rem;
+}
+
+
+
+
+
+

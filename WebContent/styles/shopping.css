@@ -1,0 +1,23 @@
+.button2{
+    height: 25px;
+    width: 25px;
+    background-color: beige;
+    text-align: center;
+    margin: 10px 10px;
+}
+
+.button1{
+    min-width: fit-content;
+    width: 80px
+}
+h1{
+    margin-bottom: 10px;
+}
+
+.to-payment-container{
+    margin: 30px 70px;
+}
+
+.table-container{
+    margin: 20px 0;
+}

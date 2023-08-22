@@ -1,0 +1,56 @@
+<!-- This example is following frontend and backend separation.
+
+    This .html performs two steps:
+    1. Create a html template skeleton, with all the elements defined (some left empty) and named with ids.
+    2. Load single-movie.js to populate the data into empty elements.
+    -->
+
+<!doctype html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="./styles/main-app.css">
+    <link rel="stylesheet" type="text/css" href="./styles/payment.css">
+    <meta charset="utf-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Single Movie</title>
+</head>
+<body>
+
+<nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="index.html">Result</a></li>
+    <li><a href="shopping-cart.html">Checkout</a></li>
+</nav>
+<div class="search"></div>
+
+<h1>Payment</h1>
+
+    <!-- Create a table header -->
+
+<div class="payment-container">
+<form id="payment-form">
+    <input type="text" name="first-name" placeholder="First Name" required/>
+    <input type="text" name="last-name" placeholder="Last Name" required/>
+    <input type="text" name="credit-num" placeholder="Credit Card Number" required/>
+    <input type="date" name="credit-exp" placeholder="Credit Card Expiration Date" required/>
+    <p id="error-msg"></p>
+    <h2 id="Total"></h2>
+    <input type="submit" id="place-order" value="Place Order">
+</form>
+
+
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="search.js"></script>
+<script src="payment.js"></script>
+</body>
+
+
+</html>

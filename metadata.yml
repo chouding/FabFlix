@@ -1,0 +1,14 @@
+---
+:id: 183239748
+:submitters:
+- :name: Anh Phuong Vo
+  :email: anhpv@uci.edu
+- :name: Raymond Chou
+  :email: chour3@uci.edu
+:created_at: !ruby/object:ActiveSupport::TimeWithZone
+  utc: 2023-06-13 05:30:25.078123000 Z
+  zone: !ruby/object:ActiveSupport::TimeZone
+    name: America/Los_Angeles
+  time: 2023-06-12 22:30:25.078123000 Z
+:status: processed
+:score: 67.0

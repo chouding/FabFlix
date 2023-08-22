@@ -1,0 +1,31 @@
+<year>: year in incorrect format for title=El grand cavalcodos
+<t> tag error: no movie title specified
+<t> tag missing
+<year>: year in incorrect format for title=Catherine of Russia
+<t> tag missing
+<year>: year in incorrect format for title=Morgan Stewart's Coming Home
+<year>: year in incorrect format for title=Raging Angels
+<t> tag missing
+<t> tag missing
+<t> tag missing
+<year>: year in incorrect format for title=Stop Train 349
+<year>: year in incorrect format for title=Karate Kid
+<year>: year in incorrect format for title=The Eternal City
+<year>: year in incorrect format for title=Gangs of New York
+<year>: year in incorrect format for title=Buena Vista Social Club
+<year>: year in incorrect format for title=Mulholland Drive
+<year>: year in incorrect format for title=Sarabande
+<director> tag error: no director specified
+<director> tag error: no director specified
+<t> tag missing
+<year>: year in incorrect format for title=Fairy Tale: A True Story
+<t> tag missing
+<year>: year in incorrect format for title=Jerry and Tom
+<year>: year in incorrect format for title=The Shanghai Triad
+<year>: year in incorrect format for title=Taste of Cherry
+<year>: year in incorrect format for title=The Matchmaker
+<year>: year in incorrect format for title=All is Routine
+<director> tag error: no director specified
+<director> tag error: no director specified
+<director> tag error: no director specified
+<director> tag error: no director specified

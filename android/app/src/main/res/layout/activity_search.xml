@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+                                                   android:layout_height="match_parent">
+
+    <TextView
+            android:text="Fabflix"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/Title"
+            android:textSize="48sp" android:textStyle="bold" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginTop="36dp" app:layout_constraintHorizontal_bias="0.498"/>
+    <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="409dp"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/Title"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" android:id="@+id/textInputLayout2"
+            android:layout_marginTop="40dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Movie Name" android:id="@+id/movie_name"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <Button
+            android:text="Search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:id="@+id/search_submit"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" android:layout_marginTop="52dp"/>
+</androidx.constraintlayout.widget.ConstraintLayout>

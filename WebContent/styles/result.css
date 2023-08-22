@@ -1,0 +1,20 @@
+form{
+    min-width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+form > label{
+    min-width: fit-content;
+    margin: 0 15px;
+}
+
+form > button{
+    margin-left: 10px;
+}
+
+select{
+    height: 30px;
+}
